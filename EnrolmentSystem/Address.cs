@@ -8,5 +8,8 @@ namespace EnrolmentSystem
 {
     internal class Address
     {
+        public string StreetNum { get; set; }
+        public string Postcode { get; set; }
+
     }
 }

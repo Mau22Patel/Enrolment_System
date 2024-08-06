@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mauli\\OneDrive - TAFE SA\\Documents\\PRG547-C#\\Assessments\\Assignment1\\Enrolment_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1503837E-14BB-46C8-BC1C-7C455007F083}|EnrolmentSystem\\EnrolmentSystem.csproj|c:\\users\\mauli\\onedrive - tafe sa\\documents\\prg547-c#\\assessments\\assignment1\\enrolment_system\\enrolmentsystem\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1503837E-14BB-46C8-BC1C-7C455007F083}|EnrolmentSystem\\EnrolmentSystem.csproj|solutionrelative:enrolmentsystem\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1503837E-14BB-46C8-BC1C-7C455007F083}|EnrolmentSystem\\EnrolmentSystem.csproj|c:\\users\\mauli\\onedrive - tafe sa\\documents\\prg547-c#\\assessments\\assignment1\\enrolment_system\\enrolmentsystem\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1503837E-14BB-46C8-BC1C-7C455007F083}|EnrolmentSystem\\EnrolmentSystem.csproj|solutionrelative:enrolmentsystem\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1503837E-14BB-46C8-BC1C-7C455007F083}|EnrolmentSystem\\EnrolmentSystem.csproj|c:\\users\\mauli\\onedrive - tafe sa\\documents\\prg547-c#\\assessments\\assignment1\\enrolment_system\\enrolmentsystem\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1503837E-14BB-46C8-BC1C-7C455007F083}|EnrolmentSystem\\EnrolmentSystem.csproj|solutionrelative:enrolmentsystem\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1503837E-14BB-46C8-BC1C-7C455007F083}|EnrolmentSystem\\EnrolmentSystem.csproj|c:\\users\\mauli\\onedrive - tafe sa\\documents\\prg547-c#\\assessments\\assignment1\\enrolment_system\\enrolmentsystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1503837E-14BB-46C8-BC1C-7C455007F083}|EnrolmentSystem\\EnrolmentSystem.csproj|solutionrelative:enrolmentsystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1503837E-14BB-46C8-BC1C-7C455007F083}|EnrolmentSystem\\EnrolmentSystem.csproj|c:\\users\\mauli\\onedrive - tafe sa\\documents\\prg547-c#\\assessments\\assignment1\\enrolment_system\\enrolmentsystem\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1503837E-14BB-46C8-BC1C-7C455007F083}|EnrolmentSystem\\EnrolmentSystem.csproj|solutionrelative:enrolmentsystem\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1503837E-14BB-46C8-BC1C-7C455007F083}|EnrolmentSystem\\EnrolmentSystem.csproj|c:\\users\\mauli\\onedrive - tafe sa\\documents\\prg547-c#\\assessments\\assignment1\\enrolment_system\\enrolmentsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1503837E-14BB-46C8-BC1C-7C455007F083}|EnrolmentSystem\\EnrolmentSystem.csproj|solutionrelative:enrolmentsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\mauli\\OneDrive - TAFE SA\\Documents\\PRG547-C#\\Assessments\\Assignment1\\Enrolment_System\\EnrolmentSystem\\Enrollment.cs",
+              "RelativeDocumentMoniker": "EnrolmentSystem\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\mauli\\OneDrive - TAFE SA\\Documents\\PRG547-C#\\Assessments\\Assignment1\\Enrolment_System\\EnrolmentSystem\\Enrollment.cs",
+              "RelativeToolTip": "EnrolmentSystem\\Enrollment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:25:35.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\mauli\\OneDrive - TAFE SA\\Documents\\PRG547-C#\\Assessments\\Assignment1\\Enrolment_System\\EnrolmentSystem\\Address.cs",
+              "RelativeDocumentMoniker": "EnrolmentSystem\\Address.cs",
+              "ToolTip": "C:\\Users\\mauli\\OneDrive - TAFE SA\\Documents\\PRG547-C#\\Assessments\\Assignment1\\Enrolment_System\\EnrolmentSystem\\Address.cs",
+              "RelativeToolTip": "EnrolmentSystem\\Address.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:25:07.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mauli\\OneDrive - TAFE SA\\Documents\\PRG547-C#\\Assessments\\Assignment1\\Enrolment_System\\EnrolmentSystem\\Program.cs",
+              "RelativeDocumentMoniker": "EnrolmentSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\mauli\\OneDrive - TAFE SA\\Documents\\PRG547-C#\\Assessments\\Assignment1\\Enrolment_System\\EnrolmentSystem\\Program.cs",
+              "RelativeToolTip": "EnrolmentSystem\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:23:42.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\mauli\\OneDrive - TAFE SA\\Documents\\PRG547-C#\\Assessments\\Assignment1\\Enrolment_System\\EnrolmentSystem\\Person.cs",
+              "RelativeDocumentMoniker": "EnrolmentSystem\\Person.cs",
+              "ToolTip": "C:\\Users\\mauli\\OneDrive - TAFE SA\\Documents\\PRG547-C#\\Assessments\\Assignment1\\Enrolment_System\\EnrolmentSystem\\Person.cs",
+              "RelativeToolTip": "EnrolmentSystem\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:24:03.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "C:\\Users\\mauli\\OneDrive - TAFE SA\\Documents\\PRG547-C#\\Assessments\\Assignment1\\Enrolment_System\\EnrolmentSystem\\Subject.cs",
+              "RelativeDocumentMoniker": "EnrolmentSystem\\Subject.cs",
+              "ToolTip": "C:\\Users\\mauli\\OneDrive - TAFE SA\\Documents\\PRG547-C#\\Assessments\\Assignment1\\Enrolment_System\\EnrolmentSystem\\Subject.cs",
+              "RelativeToolTip": "EnrolmentSystem\\Subject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:24:02.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\mauli\\OneDrive - TAFE SA\\Documents\\PRG547-C#\\Assessments\\Assignment1\\Enrolment_System\\EnrolmentSystem\\Student.cs",
+              "RelativeDocumentMoniker": "EnrolmentSystem\\Student.cs",
+              "ToolTip": "C:\\Users\\mauli\\OneDrive - TAFE SA\\Documents\\PRG547-C#\\Assessments\\Assignment1\\Enrolment_System\\EnrolmentSystem\\Student.cs",
+              "RelativeToolTip": "EnrolmentSystem\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:24:02.623Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
