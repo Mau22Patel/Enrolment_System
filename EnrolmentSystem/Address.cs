@@ -10,6 +10,8 @@ namespace EnrolmentSystem
     {
         public string StreetNum { get; set; }
         public string Postcode { get; set; }
+        public string StreetName {  set; get; }
+
 
     }
 }
