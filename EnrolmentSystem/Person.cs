@@ -2,60 +2,38 @@
 {
     internal class Person
     {
-        private string name;
-        private string email;
-        private int phoneNumber;
-
-        //Property Assessor Methods:
-        public string PersonName { get; set; }
-        public string PersonEmail { set; get; }
-        public string PhoneNum { get; set; }
-
-
-
-        //constants for defaults
-
+        // Constants for defaults
         const string DEF_NAME = "None provided";
         const string DEF_EMAIL = "None provided";
-        const int DEF_PHONE_NUM = 0;
+        const string DEF_PHONE_NUM = "None provided";
 
-        // Static variables
-        public static int totalPersons = 0; //  Static variable - count persons objects
+        // Property Accessor Methods:
+        public string PersonName { get; set; }
+        public string PersonEmail { get; set; }
+        public string PhoneNum { get; set; }
+        public Address PersonAddress { get; set; }
 
         // No-argument constructor
-
-        public Person() : this(DEF_NAME, DEF_EMAIL, DEF_PHONE_NUM)
-
+        public Person() : this(DEF_NAME, DEF_EMAIL, DEF_PHONE_NUM, new Address())
         {
-
         }
+
         // All-argument constructor
-        public Person(string PersonName, string PersonEmail, int PhoneNum)
+        public Person(string personName, string personEmail, string phoneNum, Address address)
         {
-            PersonName = name;
-            PersonEmail = email;
-            PhoneNum = phoneNumber;
-            totalPersons++; // Increment static variable
-
+            PersonName = personName;
+            PersonEmail = personEmail;
+            PhoneNum = phoneNum;
+            PersonAddress = address;
         }
-
 
         //ToSTring 
 
         public override string ToString()
         {
-            return "Person Name: " + PersonName + "Email: " + PersonEmail + "Phone Number: " + PhoneNum + "Address:" + PersonAddress;
+            return "Person Name: " + PersonName + "\nPerson Email: " + PersonEmail + "\nPerson Number : " + PhoneNum + "\nPerson Address:" + PersonAddress;
 
         }
-
-        // Static method
-        public static int GetTotalPersons()
-        {
-            //get
-            { return totalPersons; }
-
-        }
-
 
     }
 }
