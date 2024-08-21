@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Xml.Linq;
 
 namespace EnrolmentSystem
 {
@@ -42,6 +43,39 @@ namespace EnrolmentSystem
 
         }
 
+        // Override Equals method
+        //This method compares the StudentID of the current object with the StudentID of another Student object. If they match, the two objects are considered equal.
+        public override bool Equals(object obj)
+        {
+            if (obj == null || GetType() != obj.GetType())
+                return false;
+
+            Student student = (Student)obj;
+            return this.StudentID == student.StudentID;
+        }
+
+        // Override GetHashCode method
+        public override int GetHashCode()
+        {
+            // Using the hash code of the StudentID. 
+            return base.GetHashCode()^ this.StudentID.GetHashCode();
+        }
+
+        // Overload == operator
+        public static bool operator ==(Student student1, Student student2)
+        {
+            if (ReferenceEquals(student1, null))
+                return ReferenceEquals(student2, null);
+
+            return student1.Equals(student2);
+        }
+
+        // Overload != operator
+        public static bool operator !=(Student student1, Student student2)
+        {
+            return !(student1 == student2);
+        }
+
         //ToSTring 
 
         public override string ToString()
@@ -50,11 +84,13 @@ namespace EnrolmentSystem
 
         }
 
-
-
-
-
+       
     }
 }
+
+
+
+    
+
 
 

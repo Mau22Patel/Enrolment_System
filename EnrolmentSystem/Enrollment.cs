@@ -32,7 +32,7 @@ namespace EnrolmentSystem
             DateEnrolled = dateEnrolled;
             Grade = grade;
             Semester = semester;
-            SubjectEnrollment = new Subject();
+            SubjectEnrollment = subject;
 
         }
 
@@ -40,7 +40,7 @@ namespace EnrolmentSystem
 
         public override string ToString()
         {
-            return "Date Enrolled: " + DateEnrolled + "Grade: " + Grade + "Semester: " + Semester + "Subject: " + SubjectEnrollment;
+            return "Date Enrolled: " + DateEnrolled + "Grade: " + Grade + "Semester: " + Semester + "Subject Enrollment: " + SubjectEnrollment;
 
         }
 
