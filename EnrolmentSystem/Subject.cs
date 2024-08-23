@@ -24,12 +24,12 @@
         }
 
         // All-argument constructor
-        public Subject(string subjectCode, string subjectName, double cost)
+        public Subject(string subjectName, string subjectCode, double cost)
         {
-            SubjectCode = subjectCode;
             SubjectName = subjectName;
+            SubjectCode = subjectCode;
             Cost = cost;
-        
+
         }
 
 

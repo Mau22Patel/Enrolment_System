@@ -3,7 +3,7 @@ using System.Xml.Linq;
 
 namespace EnrolmentSystem
 {
-    internal class Student : Person 
+    internal class Student : Person
     {
 
         //private int studentID;
@@ -28,7 +28,7 @@ namespace EnrolmentSystem
 
         // No-argument constructor
 
-        public Student() : this(DEF_STUDENT_ID, DEF_PROGRAM, DEFAULT_DATE,new Enrollment())
+        public Student() : this(DEF_STUDENT_ID, DEF_PROGRAM, DEFAULT_DATE, new Enrollment())
         {
         }
 
@@ -39,12 +39,14 @@ namespace EnrolmentSystem
             Program = program;
             DateRegistered = date;
             StudentEnrollment = enrollment;
-        
+
 
         }
-
-        // Override Equals method
-        //This method compares the StudentID of the current object with the StudentID of another Student object. If they match, the two objects are considered equal.
+        /// <summary>
+        /// Compares the StudentID of the current object with the StudentID of another Student object.
+        /// </summary>
+        /// <param name="obj">The object to compare with the current Student object.</param>
+        /// <returns>True if the StudentID of both objects are equal; otherwise, false.</returns>
         public override bool Equals(object obj)
         {
             if (obj == null || GetType() != obj.GetType())
@@ -54,14 +56,22 @@ namespace EnrolmentSystem
             return this.StudentID == student.StudentID;
         }
 
-        // Override GetHashCode method
+        /// <summary>
+        /// Generates a hash code for the current Student object based on its StudentID.
+        /// </summary>
+        /// <returns>An integer that represents the hash code for the current Student object.</returns>
         public override int GetHashCode()
         {
             // Using the hash code of the StudentID. 
-            return base.GetHashCode()^ this.StudentID.GetHashCode();
+            return base.GetHashCode() ^ this.StudentID.GetHashCode();
         }
 
-        // Overload == operator
+        /// <summary>
+        /// Overloads the equality operator (==) to compare two Student objects based on their StudentID.
+        /// </summary>
+        /// <param name="student1">The first Student object to compare.</param>
+        /// <param name="student2">The second Student object to compare.</param>
+        /// <returns>True if the StudentID of both objects are equal; otherwise, false.</returns>
         public static bool operator ==(Student student1, Student student2)
         {
             if (ReferenceEquals(student1, null))
@@ -70,27 +80,32 @@ namespace EnrolmentSystem
             return student1.Equals(student2);
         }
 
-        // Overload != operator
+        /// <summary>
+        /// Overloads the inequality operator (!=) to compare two Student objects based on their StudentID.
+        /// </summary>
+        /// <param name="student1">The first Student object to compare.</param>
+        /// <param name="student2">The second Student object to compare.</param>
+        /// <returns>True if the StudentID of both objects are not equal; otherwise, false.</returns>
         public static bool operator !=(Student student1, Student student2)
         {
             return !(student1 == student2);
         }
 
-        //ToSTring 
-
+        /// <summary>
+        /// Returns a string that represents the current Student object.
+        /// </summary>
+        /// <returns>A string that contains the StudentID, Program, and DateRegistered of the current Student object.</returns>
         public override string ToString()
         {
-            return "Student ID: " + StudentID+ "\nProgram: " + Program + "\nDate Registered : " + DateRegistered;
-
+            return "Student ID: " + StudentID + "\nProgram: " + Program + "\nDate Registered : " + DateRegistered;
         }
-
-       
     }
 }
 
 
 
-    
+
+
 
 
 
