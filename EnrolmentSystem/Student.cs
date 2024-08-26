@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Xml.Linq;
 
 namespace EnrolmentSystem
 {
@@ -98,6 +97,40 @@ namespace EnrolmentSystem
         public override string ToString()
         {
             return "Student ID: " + StudentID + "\nProgram: " + Program + "\nDate Registered : " + DateRegistered;
+        }
+
+
+        public static bool operator <(Student student1, Student student2)
+        {
+            return student1<(student2);
+        }
+
+        public static bool operator >(Student student1, Student student2)
+        {
+            return student1 > (student2);
+        }
+
+        public static bool operator >=(Student student1, Student student2)
+        {
+            return student1 >=(student2);
+        }
+        public static bool operator <=(Student student1, Student student2)
+        {
+            return student1 <=(student2);
+        }
+
+
+
+
+
+
+        public int CompareTo(object obj)
+        {
+            if (obj == null)
+                throw new ArgumentNullException("obj");
+            if (!(obj is Student))
+                throw new ArgumentException("Expected Student Instance", "obj");
+            return CompareTo((Student)obj);
         }
     }
 }
