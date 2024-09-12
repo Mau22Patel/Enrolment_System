@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Runtime.Remoting.Messaging;
 
 namespace EnrolmentSystem
 {
-    internal class Student : Person
+    public class Student : Person, IComparable, IComparable<Student>
     {
 
         //private int studentID;
@@ -96,7 +97,7 @@ namespace EnrolmentSystem
         /// <returns>A string that contains the StudentID, Program, and DateRegistered of the current Student object.</returns>
         public override string ToString()
         {
-            return "Student ID: " + StudentID + "\nProgram: " + Program + "\nDate Registered : " + DateRegistered;
+            return base.ToString() + "\nStudent ID: " + StudentID + "\nProgram: " + Program + "\nDate Registered : " + DateRegistered;
         }
 
 
@@ -120,9 +121,12 @@ namespace EnrolmentSystem
         }
 
 
-
-
-
+        public int CompareTo(Student other)
+        {
+            if (other == null)
+                throw new ArgumentNullException("obj");
+            return this.StudentID.CompareTo (other.StudentID);
+        }
 
         public int CompareTo(object obj)
         {
@@ -130,7 +134,10 @@ namespace EnrolmentSystem
                 throw new ArgumentNullException("obj");
             if (!(obj is Student))
                 throw new ArgumentException("Expected Student Instance", "obj");
-            return CompareTo((Student)obj);
+
+            Student student = (Student)obj;
+            return this.StudentID.CompareTo(student.StudentID);
+
         }
     }
 }

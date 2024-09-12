@@ -1,6 +1,6 @@
 ﻿namespace EnrolmentSystem
 {
-    internal class Subject
+    public class Subject
     {
         //private string subjectCode;
         //private string subjectName;

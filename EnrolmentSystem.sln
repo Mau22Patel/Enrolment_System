@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnrolmentSystem", "EnrolmentSystem\EnrolmentSystem.csproj", "{1503837E-14BB-46C8-BC1C-7C455007F083}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnrolmentSystemTesting", "EnrolmentSystemTesting\EnrolmentSystemTesting.csproj", "{C655F14B-EB0F-43BB-B830-A236A89EBACD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1503837E-14BB-46C8-BC1C-7C455007F083}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1503837E-14BB-46C8-BC1C-7C455007F083}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1503837E-14BB-46C8-BC1C-7C455007F083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C655F14B-EB0F-43BB-B830-A236A89EBACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C655F14B-EB0F-43BB-B830-A236A89EBACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C655F14B-EB0F-43BB-B830-A236A89EBACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C655F14B-EB0F-43BB-B830-A236A89EBACD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

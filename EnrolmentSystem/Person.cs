@@ -1,6 +1,9 @@
-﻿namespace EnrolmentSystem
+﻿using System;
+using System.Runtime.InteropServices.WindowsRuntime;
+
+namespace EnrolmentSystem
 {
-    internal class Person
+    public class Person
     {
         // Constants for defaults
         const string DEF_NAME = "None provided";
@@ -35,5 +38,8 @@
 
         }
 
+   
+
+       
     }
 }

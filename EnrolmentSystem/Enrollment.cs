@@ -2,7 +2,7 @@
 
 namespace EnrolmentSystem
 {
-    internal class Enrollment
+    public class Enrollment
     {
         //private DateTime dateEnrolled;
         //private string grade;

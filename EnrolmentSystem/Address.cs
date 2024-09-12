@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EnrolmentSystem
 {
-    internal class Address
+    public class Address
     {
         //private string streetName;
         //private string streetNum;
