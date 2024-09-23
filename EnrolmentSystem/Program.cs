@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace EnrolmentSystem
 {
@@ -195,9 +196,41 @@ namespace EnrolmentSystem
             Console.WriteLine("\nNumbers array descending  using Bubble sort\n");
             foreach (Student student in studentsArray)
             {
-                Console.WriteLine(student + " ");
+                Console.WriteLine(student + " \n");
 
             }
+
+            //Node Chains 
+
+            Node<int> first = new Node<int> { Value = 3 };
+            Node<int> studentNode = new Node<int> { Value = 116 };
+            Console.WriteLine("\n displays node chains");
+            Console.WriteLine("first node:" + first);
+            Console.WriteLine("student node:" + studentNode);
+
+            first.Next = studentNode;
+
+            Node<int> last = new Node<int> { Value = 9 };
+            studentNode.Next = last;
+
+            //create a linked list 
+            Console.WriteLine("Linked List example"); 
+            SingleLinkedList<int> myLinkedList = new SingleLinkedList<int>();
+            myLinkedList.Add(5);
+            myLinkedList.Add(2);
+            myLinkedList.Add(10);
+            myLinkedList.Add(11);
+            myLinkedList.Add(1);
+            foreach(int item in myLinkedList)
+            {
+                Console.WriteLine(item); 
+            }
+            Console.WriteLine("Number of Items in the list" + myLinkedList.Count);/
+
+
+
+
+
             Console.ReadKey();
         }
     

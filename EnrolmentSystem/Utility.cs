@@ -11,12 +11,13 @@ namespace EnrolmentSystem
     {
 
         /// <summary>
-        /// 
+        /// Searches for a target value in the array.
         /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="myArray"></param>
-        /// <param name="target"></param>
-        /// <returns></returns>
+        /// <typeparam name="T">The data type of the array.</typeparam>
+        /// <param name="array">The array to search through.</param>
+        /// <param name="target">The value being searched for.</param>
+        /// <returns>The index of the target or -1 if not found.</returns>
+
         public static int LinearSearch<T>(T[] array, T target) where T : IComparable<T>
         {
 
@@ -39,12 +40,13 @@ namespace EnrolmentSystem
                 return -1; //return -1 if not found. 
         }
         /// <summary>
-        /// 
+        /// Performs a binary search to find a target value in a sorted array.
         /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="array"></param>
-        /// <param name="target"></param>
-        /// <returns></returns>
+        /// <typeparam name="T">The data type of the array elements.</typeparam>
+        /// <param name="array">The sorted array to search through.</param>
+        /// <param name="target">The value being searched for.</param>
+        /// <returns>The index of the target or -1 if not found.</returns>
+
         public static int BinarySearchArray<T>(T[] array, T target) where T : IComparable<T>
         {
             int min = 0;
@@ -62,6 +64,11 @@ namespace EnrolmentSystem
             } while (min <= max);
             return -1;  // -1 is returned when not found
         }
+        /// <summary>
+        /// Sorts an array in ascending order using the Bubble Sort algorithm.
+        /// </summary>
+        /// <typeparam name="T">The data type of the array elements.</typeparam>
+        /// <param name="array">The array to be sorted.</param>
 
         //Object of Type <T> in ascending order 
         public static void BubbleSort_Ascending<T>(T[] array) where T : IComparable<T>
@@ -83,9 +90,14 @@ namespace EnrolmentSystem
                 }
             }
         }
+        /// <summary>
+        /// Sorts an array in descending order using the Bubble Sort algorithm.
+        /// </summary>
+        /// <typeparam name="T">The data type of the array elements.</typeparam>
+        /// <param name="array">The array to be sorted.</param>
 
-            //Object of Type <T> in descending order 
-    public static void BubbleSort_Descending<T>(T[] array) where T : IComparable<T>
+        //Object of Type <T> in descending order 
+        public static void BubbleSort_Descending<T>(T[] array) where T : IComparable<T>
     {
         int n = array.Length;
         for (int i = 0; i < n - 1; i++)

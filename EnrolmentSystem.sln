@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnrolmentSystem", "Enrolmen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnrolmentSystemTesting", "EnrolmentSystemTesting\EnrolmentSystemTesting.csproj", "{C655F14B-EB0F-43BB-B830-A236A89EBACD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B367496-8EBC-46B7-8AF6-1F8C05CEF2CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -120,6 +120,12 @@ namespace EnrolmentSystem
             return student1 <=(student2);
         }
 
+        /// <summary>
+        /// Compares this Student object to another Student by their StudentID.
+        /// </summary>
+        /// <param name="other">The other Student object to compare with.</param>
+        /// <returns>An integer indicating the relative order of the Student objects.</returns>
+        /// <exception cref="ArgumentNullException">Thrown when the other Student is null.</exception>
 
         public int CompareTo(Student other)
         {
@@ -127,6 +133,52 @@ namespace EnrolmentSystem
                 throw new ArgumentNullException("obj");
             return this.StudentID.CompareTo (other.StudentID);
         }
+        /// <summary>
+        /// Compares this Student object to another object by their StudentID.
+        /// </summary>
+        /// <param name="obj">The object to compare with, expected to be a Student.</param>
+        /// <returns>An integer indicating the relative order of the objects.</returns>
+        /// <exception cref="ArgumentNullException">Thrown when the provided object is null.</exception>
+        /// <exception cref="ArgumentException">Thrown when the provided object is not a Student instance.</exception>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         public int CompareTo(object obj)
         {
